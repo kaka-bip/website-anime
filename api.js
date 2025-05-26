@@ -17,7 +17,6 @@ fetch('https://api.jikan.moe/v4/top/anime')
         <p><strong>Status:</strong> ${anime.status}</p>
         <p><strong>Episódios:</strong> ${anime.episodes || 'Desconhecido'}</p>
         <p><strong>Gêneros:</strong> ${generos}</p>
-        <p class="sinopse">${anime.synopsis}</p>
         <a href="https://www.crunchyroll.com/pt-br/search?q=${encodeURIComponent(anime.title)}" target="_blank">
           <i class="fas fa-play"></i> Assistir Online
         </a>
